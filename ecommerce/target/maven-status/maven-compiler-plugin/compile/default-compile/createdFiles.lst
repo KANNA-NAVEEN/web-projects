@@ -1,0 +1,15 @@
+com\fresco\ecommerce\models\User.class
+com\fresco\ecommerce\models\Category.class
+com\fresco\ecommerce\models\Role.class
+com\fresco\ecommerce\models\CartProduct.class
+com\fresco\ecommerce\repo\package-info.class
+com\fresco\ecommerce\models\package-info.class
+com\fresco\ecommerce\repo\UserRepo.class
+com\fresco\ecommerce\repo\CategoryRepo.class
+com\fresco\ecommerce\repo\ProductRepo.class
+com\fresco\ecommerce\repo\RoleRepo.class
+com\fresco\ecommerce\ECommerceApplication.class
+com\fresco\ecommerce\models\Cart.class
+com\fresco\ecommerce\repo\CartRepo.class
+com\fresco\ecommerce\repo\CartProductRepo.class
+com\fresco\ecommerce\models\Product.class
