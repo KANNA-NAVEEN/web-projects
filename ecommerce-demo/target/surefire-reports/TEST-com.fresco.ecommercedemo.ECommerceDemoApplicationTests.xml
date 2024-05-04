@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="9.369" tests="24" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Workspaces\Eclipse\web projects\ecommerce-demo\target\test-classes;C:\Workspaces\Eclipse\web projects\ecommerce-demo\target\classes;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.5\spring-boot-starter-data-jpa-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.5\spring-boot-starter-aop-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.5\spring-boot-starter-jdbc-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-jdbc\6.1.6\spring-jdbc-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Kanna Naveen\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Kanna Naveen\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Kanna Naveen\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\data\spring-data-jpa\3.2.5\spring-data-jpa-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\data\spring-data-commons\3.2.5\spring-data-commons-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-orm\6.1.6\spring-orm-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-tx\6.1.6\spring-tx-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-aspects\6.1.6\spring-aspects-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.5\spring-boot-starter-security-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Kanna Naveen\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-config\6.2.4\spring-security-config-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-web\6.2.4\spring-security-web-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Kanna Naveen\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-devtools\3.2.5\spring-boot-devtools-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\Kanna Naveen\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Kanna Naveen\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Kanna Naveen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Kanna Naveen\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-test\6.2.4\spring-security-test-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-core\6.2.4\spring-security-core-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-crypto\6.2.4\spring-security-crypto-6.2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kanna Naveen\AppData\Local\Temp\surefire5015008332386649411\surefirebooter-20240504102218821_3.jar C:\Users\Kanna Naveen\AppData\Local\Temp\surefire5015008332386649411 2024-05-04T10-22-18_583-jvmRun1 surefire-20240504102218821_1tmp surefire_0-20240504102218821_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Workspaces\Eclipse\web projects\ecommerce-demo\target\test-classes;C:\Workspaces\Eclipse\web projects\ecommerce-demo\target\classes;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.5\spring-boot-starter-data-jpa-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.5\spring-boot-starter-aop-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.5\spring-boot-starter-jdbc-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-jdbc\6.1.6\spring-jdbc-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Kanna Naveen\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Kanna Naveen\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Kanna Naveen\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\data\spring-data-jpa\3.2.5\spring-data-jpa-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\data\spring-data-commons\3.2.5\spring-data-commons-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-orm\6.1.6\spring-orm-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-tx\6.1.6\spring-tx-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-aspects\6.1.6\spring-aspects-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.5\spring-boot-starter-security-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Kanna Naveen\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-config\6.2.4\spring-security-config-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-web\6.2.4\spring-security-web-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Kanna Naveen\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-devtools\3.2.5\spring-boot-devtools-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\Kanna Naveen\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\Kanna Naveen\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Kanna Naveen\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Kanna Naveen\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Kanna Naveen\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Kanna Naveen\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\Kanna Naveen\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Kanna Naveen\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Kanna Naveen\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Kanna Naveen\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\Kanna Naveen\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-test\6.2.4\spring-security-test-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-core\6.2.4\spring-security-core-6.2.4.jar;C:\Users\Kanna Naveen\.m2\repository\org\springframework\security\spring-security-crypto\6.2.4\spring-security-crypto-6.2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kanna Naveen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Workspaces\Eclipse\web projects\ecommerce-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="windows-1252"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kanna Naveen\AppData\Local\Temp\surefire5015008332386649411\surefirebooter-20240504102218821_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="Kanna Naveen"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Kanna Naveen\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KANNAN~1\AppData\Local\Temp\"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Workspaces\Eclipse\web projects\ecommerce-demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="15284"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kanna Naveen\AppData\Local\Microsoft\WindowsApps;C:\Users\Kanna Naveen\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="productSearchStatus" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="1.179">
+    <system-out><![CDATA[10:22:20.104 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fresco.ecommercedemo.ECommerceDemoApplicationTests]: ECommerceDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:22:20.256 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fresco.ecommercedemo.ECommerceDemoApplication for test class com.fresco.ecommercedemo.ECommerceDemoApplicationTests
+10:22:20.569 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-04T10:22:20.919+05:30  INFO 15284 --- [           main] c.f.e.ECommerceDemoApplicationTests      : Starting ECommerceDemoApplicationTests using Java 17.0.10 with PID 15284 (started by Kanna Naveen in C:\Workspaces\Eclipse\web projects\ecommerce-demo)
+2024-05-04T10:22:20.923+05:30  INFO 15284 --- [           main] c.f.e.ECommerceDemoApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-05-04T10:22:22.020+05:30  INFO 15284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-04T10:22:22.134+05:30  INFO 15284 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 5 JPA repository interfaces.
+2024-05-04T10:22:22.773+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-04T10:22:23.024+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-05-04T10:22:23.026+05:30  INFO 15284 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-04T10:22:23.099+05:30  INFO 15284 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-04T10:22:23.205+05:30  INFO 15284 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-04T10:22:23.275+05:30  INFO 15284 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-04T10:22:23.696+05:30  INFO 15284 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-04T10:22:25.075+05:30  INFO 15284 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists cart cascade 
+Hibernate: drop table if exists cart_product cascade 
+Hibernate: drop table if exists category cascade 
+Hibernate: drop table if exists client cascade 
+Hibernate: drop table if exists product cascade 
+Hibernate: drop table if exists user_role cascade 
+Hibernate: create table cart (cart_id integer generated by default as identity, total_amount float(53), user_user_id integer unique, primary key (cart_id))
+Hibernate: create table cart_product (cart_id integer, cp_id integer generated by default as identity, product_id integer, quantity integer, primary key (cp_id), unique (cart_id, product_id))
+Hibernate: create table category (category_id integer generated by default as identity, category_name varchar(255) unique, primary key (category_id))
+Hibernate: create table client (user_id integer generated by default as identity, password varchar(255), username varchar(255) unique, primary key (user_id))
+Hibernate: create table product (category_id integer, price float(53), product_id integer generated by default as identity, seller_id integer, product_name varchar(255), primary key (product_id))
+Hibernate: create table user_role (user_id integer not null, roles varchar(255) check (roles in ('CONSUMER','SELLER')))
+Hibernate: alter table if exists cart add constraint FK7ik2hiadxldow3eaulyhc8ipw foreign key (user_user_id) references client
+Hibernate: alter table if exists cart_product add constraint FKlv5x4iresnv4xspvomrwd8ej9 foreign key (cart_id) references cart
+Hibernate: alter table if exists cart_product add constraint FK2kdlr8hs2bwl14u8oop49vrxi foreign key (product_id) references product
+Hibernate: alter table if exists product add constraint FK1mtsbur82frn64de7balymq9s foreign key (category_id) references category
+Hibernate: alter table if exists product add constraint FKf7ya3vifwcwi0866kti9w3a1v foreign key (seller_id) references client
+Hibernate: alter table if exists user_role add constraint FKn9c0xpoqj8btnfgue4qu0nb06 foreign key (user_id) references client
+2024-05-04T10:22:25.144+05:30  INFO 15284 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-04T10:22:25.836+05:30  WARN 15284 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-04T10:22:26.260+05:30  INFO 15284 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@467e7793, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e8995cc, org.springframework.security.web.context.SecurityContextHolderFilter@86e8469, org.springframework.security.web.header.HeaderWriterFilter@22195d06, org.springframework.web.filter.CorsFilter@625c9248, org.springframework.security.web.authentication.logout.LogoutFilter@7da0587a, com.fresco.ecommercedemo.config.JwtAuthenticationFilter@6cd65042, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e38d655, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7325b786, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c1ef806, org.springframework.security.web.session.SessionManagementFilter@21ebf9be, org.springframework.security.web.access.ExceptionTranslationFilter@54faa040, org.springframework.security.web.access.intercept.AuthorizationFilter@5a644d75]
+2024-05-04T10:22:26.714+05:30  INFO 15284 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-04T10:22:26.714+05:30  INFO 15284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-04T10:22:26.716+05:30  INFO 15284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-04T10:22:26.739+05:30  INFO 15284 --- [           main] c.f.e.ECommerceDemoApplicationTests      : Started ECommerceDemoApplicationTests in 6.19 seconds (process running for 7.74)
+2024-05-04T10:22:27.489+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/public/product/search
+2024-05-04T10:22:27.499+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:27.500+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/public/product/search
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where upper(p1_0.product_name) like upper(?) escape '\' or upper(c1_0.category_name) like upper(?) escape '\'
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="productSearchWithoutKeyword" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.016">
+    <system-out><![CDATA[2024-05-04T10:22:27.947+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/public/product/search
+2024-05-04T10:22:27.948+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:27.948+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/public/product/search
+]]></system-out>
+  </testcase>
+  <testcase name="productSearchWithProductName" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.029">
+    <system-out><![CDATA[2024-05-04T10:22:27.964+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/public/product/search
+2024-05-04T10:22:27.964+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:27.964+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/public/product/search
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where upper(p1_0.product_name) like upper(?) escape '\' or upper(c1_0.category_name) like upper(?) escape '\'
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="productSearchWithCategoryName" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.015">
+    <system-out><![CDATA[2024-05-04T10:22:27.996+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/public/product/search
+2024-05-04T10:22:27.996+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:27.996+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/public/product/search
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where upper(p1_0.product_name) like upper(?) escape '\' or upper(c1_0.category_name) like upper(?) escape '\'
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerAuthEndpoint" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.009">
+    <system-out><![CDATA[2024-05-04T10:22:28.010+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+2024-05-04T10:22:28.011+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+You are not authorized to access this resource
+]]></system-out>
+  </testcase>
+  <testcase name="sellerAuthEndpoint" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.009">
+    <system-out><![CDATA[2024-05-04T10:22:28.022+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+2024-05-04T10:22:28.023+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+You are not authorized to access this resource
+]]></system-out>
+  </testcase>
+  <testcase name="consumerLoginWithBadCreds" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.076">
+    <system-out><![CDATA[2024-05-04T10:22:28.036+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.037+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.037+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.099+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+]]></system-out>
+    <system-err><![CDATA[org.springframework.security.authentication.BadCredentialsException: Bad credentials
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:89)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at com.fresco.ecommercedemo.service.AuthenticationService.authenticate(AuthenticationService.java:22)
+	at com.fresco.ecommercedemo.controller.PublicController.login(PublicController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.fresco.ecommercedemo.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:39)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.test.web.servlet.setup.MockMvcFilterDecorator.doFilter(MockMvcFilterDecorator.java:151)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.fresco.ecommercedemo.ECommerceDemoApplicationTests.consumerLoginWithBadCreds(ECommerceDemoApplicationTests.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="consumerLoginWithValidCreds" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.099">
+    <system-out><![CDATA[2024-05-04T10:22:28.113+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.114+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.114+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.131+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.195+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.195+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.195+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.204+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+]]></system-out>
+  </testcase>
+  <testcase name="consumerGetCartWithValidJWT" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.099">
+    <system-out><![CDATA[2024-05-04T10:22:28.211+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.211+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.212+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.219+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.222+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.283+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="sellerApiWithConsumerJWT" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.03">
+    <system-out><![CDATA[2024-05-04T10:22:28.313+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.314+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.314+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.322+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.325+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.337+05:30 DEBUG 15284 --- [           main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+]]></system-out>
+  </testcase>
+  <testcase name="sellerLoginWithValidCreds" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.021">
+    <system-out><![CDATA[2024-05-04T10:22:28.343+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.344+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.344+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.349+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.353+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.353+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.353+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.357+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+]]></system-out>
+  </testcase>
+  <testcase name="sellerGetProductsWithValidJWT" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.041">
+    <system-out><![CDATA[2024-05-04T10:22:28.367+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.367+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.367+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.373+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.377+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.391+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.seller_id,p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.price,p1_0.product_name from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.seller_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerApiWithSellerJWT" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.026">
+    <system-out><![CDATA[2024-05-04T10:22:28.409+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.409+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.409+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.414+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.417+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.428+05:30 DEBUG 15284 --- [           main] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+]]></system-out>
+  </testcase>
+  <testcase name="sellerAddNewProduct" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.098">
+    <system-out><![CDATA[2024-05-04T10:22:28.438+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.438+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.438+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.443+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.446+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.455+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_name=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,r1_0.user_id,r1_0.roles,s1_0.username from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id left join user_role r1_0 on s1_0.user_id=r1_0.user_id where p1_0.product_id=?
+Hibernate: insert into product (category_id,price,product_name,seller_id,product_id) values (?,?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="sellerCheckAddedNewProduct" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.057">
+    <system-out><![CDATA[2024-05-04T10:22:28.534+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.535+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.535+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.539+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.542+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.552+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+2024-05-04T10:22:28.563+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.564+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.564+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.567+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.570+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.578+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.seller_id,p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.price,p1_0.product_name from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.seller_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="sellerCheckProductFromAnotherSeller" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.051">
+    <system-out><![CDATA[2024-05-04T10:22:28.594+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.594+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.594+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.598+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.601+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.611+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+2024-05-04T10:22:28.618+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.618+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.619+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.622+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.624+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.635+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.seller_id,p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.price,p1_0.product_name from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.seller_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="sellerUpdateProduct" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.096">
+    <system-out><![CDATA[2024-05-04T10:22:28.647+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.647+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.647+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.653+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.656+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing PUT /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.663+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured PUT /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_name=?
+Hibernate: update product set category_id=?,price=?,product_name=? where product_id=?
+2024-05-04T10:22:28.688+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.689+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.689+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.693+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.695+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.707+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name,p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from category c1_0 left join product p1_0 on c1_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where c1_0.category_id=?
+2024-05-04T10:22:28.716+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.716+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.717+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.721+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.724+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.731+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.seller_id,p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.price,p1_0.product_name from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.seller_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="sellerUpdateProductWithWrongProductId" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.029">
+    <system-out><![CDATA[2024-05-04T10:22:28.744+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.744+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.744+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:28.749+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.753+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing PUT /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:28.761+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured PUT /api/auth/seller/product
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerAddProductToCart" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.105">
+    <system-out><![CDATA[2024-05-04T10:22:28.773+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.773+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.773+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.781+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.785+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.797+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.805+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.805+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.805+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.810+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.812+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.822+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select cp1_0.cp_id,cp1_0.cart_id,cp1_0.product_id,cp1_0.quantity from cart_product cp1_0 left join cart c1_0 on c1_0.cart_id=cp1_0.cart_id left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join product p1_0 on p1_0.product_id=cp1_0.product_id where u1_0.user_id=? and p1_0.product_id=?
+Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_name=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: insert into cart_product (cart_id,product_id,quantity,cp_id) values (?,?,?,default)
+2024-05-04T10:22:28.841+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.841+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.841+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.849+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.852+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.864+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerAddProductToCartAgain" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.042">
+    <system-out><![CDATA[2024-05-04T10:22:28.884+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.885+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.885+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.893+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.895+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.909+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select cp1_0.cp_id,cp1_0.cart_id,cp1_0.product_id,cp1_0.quantity from cart_product cp1_0 left join cart c1_0 on c1_0.cart_id=cp1_0.cart_id left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join product p1_0 on p1_0.product_id=cp1_0.product_id where u1_0.user_id=? and p1_0.product_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerUpdateProductInCart" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.093">
+    <system-out><![CDATA[2024-05-04T10:22:28.925+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.925+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.925+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.937+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.941+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing PUT /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:28.958+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured PUT /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select cp1_0.cp_id,cp1_0.cart_id,cp1_0.product_id,cp1_0.quantity from cart_product cp1_0 left join cart c1_0 on c1_0.cart_id=cp1_0.cart_id left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join product p1_0 on p1_0.product_id=cp1_0.product_id where u1_0.user_id=? and p1_0.product_id=?
+Hibernate: update cart_product set cart_id=?,product_id=?,quantity=? where cp_id=?
+2024-05-04T10:22:28.978+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:28.978+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:28.978+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:28.987+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:28.989+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:29.003+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerUpdateProductInCartWithZeroQuantity" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.099">
+    <system-out><![CDATA[2024-05-04T10:22:29.019+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:29.019+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:29.019+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:29.029+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:29.032+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing PUT /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:29.049+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured PUT /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select cp1_0.cp_id,cp1_0.cart_id,cp1_0.product_id,cp1_0.quantity from cart_product cp1_0 left join cart c1_0 on c1_0.cart_id=cp1_0.cart_id left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join product p1_0 on p1_0.product_id=cp1_0.product_id where u1_0.user_id=? and p1_0.product_id=?
+Hibernate: delete from cart_product where cp_id=?
+Hibernate: delete from product where product_id=?
+2024-05-04T10:22:29.074+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:29.075+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:29.075+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:29.083+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:29.087+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:29.099+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="consumerDeleteProductInCart" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.07">
+    <system-out><![CDATA[2024-05-04T10:22:29.122+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:29.123+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:29.123+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+2024-05-04T10:22:29.130+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:29.135+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing DELETE /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Validated succesfully
+2024-05-04T10:22:29.147+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured DELETE /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.category_id,p1_0.product_id,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where p1_0.category_id=?
+Hibernate: select cp1_0.cp_id,cp1_0.cart_id,cp1_0.product_id,cp1_0.quantity from cart_product cp1_0 left join cart c1_0 on c1_0.cart_id=cp1_0.cart_id left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join product p1_0 on p1_0.product_id=cp1_0.product_id where u1_0.user_id=? and p1_0.product_id=?
+Hibernate: delete from cart_product where cp_id=?
+Hibernate: delete from product where product_id=?
+2024-05-04T10:22:29.160+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:29.161+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:29.161+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+2024-05-04T10:22:29.164+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:29.167+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+Validated succesfully
+2024-05-04T10:22:29.180+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/consumer/cart
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select cp1_0.cart_id,cp1_0.cp_id,p1_0.product_id,c2_0.category_id,c2_0.category_name,p1_0.price,p1_0.product_name,s1_0.user_id,s1_0.password,s1_0.username,cp1_0.quantity from cart_product cp1_0 left join product p1_0 on p1_0.product_id=cp1_0.product_id left join category c2_0 on c2_0.category_id=p1_0.category_id left join client s1_0 on s1_0.user_id=p1_0.seller_id where cp1_0.cart_id=?
+]]></system-out>
+  </testcase>
+  <testcase name="sellerDeleteProduct" classname="com.fresco.ecommercedemo.ECommerceDemoApplicationTests" time="0.039">
+    <failure message="Response status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$is$1(StatusResultMatchers.java:64)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.fresco.ecommercedemo.ECommerceDemoApplicationTests.sellerDeleteProduct(ECommerceDemoApplicationTests.java:344)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[2024-05-04T10:22:29.193+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/public/login
+2024-05-04T10:22:29.193+05:30 DEBUG 15284 --- [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2024-05-04T10:22:29.193+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/public/login
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+2024-05-04T10:22:29.199+05:30 DEBUG 15284 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2024-05-04T10:22:29.203+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Securing DELETE /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Validated succesfully
+2024-05-04T10:22:29.213+05:30 DEBUG 15284 --- [           main] o.s.security.web.FilterChainProxy        : Secured DELETE /api/auth/seller/product/3
+Hibernate: select u1_0.user_id,u1_0.password,u1_0.username from client u1_0 where u1_0.username=?
+Hibernate: select c1_0.cart_id,c1_0.total_amount,u1_0.user_id,u1_0.password,r1_0.user_id,r1_0.roles,u1_0.username from cart c1_0 left join client u1_0 on u1_0.user_id=c1_0.user_user_id left join user_role r1_0 on u1_0.user_id=r1_0.user_id where c1_0.user_user_id=?
+Hibernate: select r1_0.user_id,r1_0.roles from user_role r1_0 where r1_0.user_id=?
+Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.price,p1_0.product_name,p1_0.seller_id from product p1_0 left join client s1_0 on s1_0.user_id=p1_0.seller_id where s1_0.user_id=? and p1_0.product_id=?
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/public/login
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"43"]
+             Body = {"password":"pass_word","username":"apple"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.fresco.ecommercedemo.controller.PublicController
+           Method = com.fresco.ecommercedemo.controller.PublicController#login(AuthenticationRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"text/plain;charset=UTF-8", Content-Length:"131", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = text/plain;charset=UTF-8
+             Body = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcHBsZSIsImlhdCI6MTcxNDc5ODM0OSwiZXhwIjoxNzE0Nzk5MjQ5fQ._Mim9MADeMrhm_nFEyIcKoHOdD1GIBCdOuIPcKSxr4A
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /api/auth/seller/product/3
+       Parameters = {}
+          Headers = [JWT:"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcHBsZSIsImlhdCI6MTcxNDc5ODM0OSwiZXhwIjoxNzE0Nzk5MjQ5fQ._Mim9MADeMrhm_nFEyIcKoHOdD1GIBCdOuIPcKSxr4A"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.fresco.ecommercedemo.controller.SellerController
+           Method = com.fresco.ecommercedemo.controller.SellerController#deleteProduct(Integer)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+</testsuite>
